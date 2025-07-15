@@ -41,17 +41,11 @@ Example:
 
 #Getting Started
 1. Clone the repo
-bash
-Copy
-Edit
-git clone https://github.com/DeepakRizal/Drag-drop-task-board
-cd task-board
+gh repo clone DeepakRizal/Drag-drop-task-board
 2. Open in browser
 Just open the index.html file in your browser.
 
 #Project Structure
-
-task-board/
 ├── index.html
 ├── style.css
 └── script.js
