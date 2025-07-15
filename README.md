@@ -11,18 +11,18 @@ Drag and drop tasks between lists
 
 All data is stored in localStorage
 
-✨ Features
-✅ Create & manage lists
+ Features
+ Create & manage lists
 
-✅ Add/edit/delete tasks
+ Add/edit/delete tasks
 
-✅ Drag & drop between lists
+ Drag & drop between lists
 
-✅ Data persistence using localStorage
+ Data persistence using localStorage
 
-✅ Clean and modular code structure
+ Clean and modular code structure
 
-🧰 Tech Stack
+ Tech Stack
 HTML
 
 CSS
@@ -44,7 +44,7 @@ Example:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/task-board.git
+git clone https://github.com/DeepakRizal/Drag-drop-task-board
 cd task-board
 2. Open in browser
 Just open the index.html file in your browser.
