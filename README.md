@@ -41,22 +41,19 @@ Example:
 
 #Getting Started
 1. Clone the repo
-gh repo clone DeepakRizal/Drag-drop-task-board
-2. Open in browser
-Just open the index.html file in your browser.
+-gh repo clone DeepakRizal/Drag-drop-task-board
+3. Open in browser
+-Just open the index.html file in your browser.
 
 #Project Structure
 ├── index.html
 ├── style.css
 └── script.js
-Learning Outcomes
-Deepened understanding of the DOM
-
-Implemented drag-and-drop with the native Drag & Drop API
-
-Practiced modularizing JavaScript code
-
-Improved CRUD logic and localStorage handling
+#Learning Outcomes
+1.Deepened understanding of the DOM
+2.Implemented drag-and-drop with the native Drag & Drop API
+3.Practiced modularizing JavaScript code
+4.Improved CRUD logic and localStorage handling
 
 #Acknowledgements
 Big thanks to the JavaScript community and everyone who supported me while I built this project.
