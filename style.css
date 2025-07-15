@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.board {
+  max-width: 100%;
+  margin: auto;
+}
+
+.add-list-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#new-list-name {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#add-list-btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.lists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.heading-container button {
+  border: none;
+  background-color: transparent;
+}
+
+.list {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.list h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.task {
+  background-color: #e2e4e6;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task:active {
+  cursor: grabbing;
+}
+
+.task button {
+  border: none;
+  background: transparent;
+}
+
+.task .save {
+  padding: 8px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #005f45;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.task input {
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  margin-right: 0.5rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.task p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.add-task {
+  display: flex;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.add-task button {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Edit Input */
+.edit-input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.375rem;
+  margin-right: 0.5rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.edit-input:focus {
+  border-color: #007456;
+}
+
+/* Save Button */
+.heading-container .save {
+  padding: 8px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #005f45;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
